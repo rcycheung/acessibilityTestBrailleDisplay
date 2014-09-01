@@ -21,6 +21,7 @@
 		63C0F52119B4353100CC213C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C0F50319B4353100CC213C /* UIKit.framework */; };
 		63C0F52919B4353100CC213C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63C0F52719B4353100CC213C /* InfoPlist.strings */; };
 		63C0F52B19B4353100CC213C /* acessibilityTestBrailleDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0F52A19B4353100CC213C /* acessibilityTestBrailleDisplayTests.m */; };
+		63C0F53619B435AA00CC213C /* UIAccessibleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0F53419B435AA00CC213C /* UIAccessibleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		63C0F52619B4353100CC213C /* acessibilityTestBrailleDisplayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "acessibilityTestBrailleDisplayTests-Info.plist"; sourceTree = "<group>"; };
 		63C0F52819B4353100CC213C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63C0F52A19B4353100CC213C /* acessibilityTestBrailleDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = acessibilityTestBrailleDisplayTests.m; sourceTree = "<group>"; };
+		63C0F53419B435AA00CC213C /* UIAccessibleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAccessibleProgressView.m; sourceTree = "<group>"; };
+		63C0F53519B435AA00CC213C /* UIAccessibleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAccessibleProgressView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		63C0F50519B4353100CC213C /* acessibilityTestBrailleDisplay */ = {
 			isa = PBXGroup;
 			children = (
+				63C0F53419B435AA00CC213C /* UIAccessibleProgressView.m */,
+				63C0F53519B435AA00CC213C /* UIAccessibleProgressView.h */,
 				63C0F50E19B4353100CC213C /* testAppAppDelegate.h */,
 				63C0F50F19B4353100CC213C /* testAppAppDelegate.m */,
 				63C0F51119B4353100CC213C /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63C0F51619B4353100CC213C /* testAppViewController.m in Sources */,
+				63C0F53619B435AA00CC213C /* UIAccessibleProgressView.m in Sources */,
 				63C0F51019B4353100CC213C /* testAppAppDelegate.m in Sources */,
 				63C0F50C19B4353100CC213C /* main.m in Sources */,
 			);
